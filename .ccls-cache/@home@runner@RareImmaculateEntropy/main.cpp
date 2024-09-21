@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
-int main() 
+
+int main()
 {
- int town;
-  town=20 * 23.5;
- int highway;
-  highway=20* 28.9;
-  cout <<"The number of miles you can travel in town is " << town << endl; 
-  cout <<"The number of miles you can travel on the highway is " << highway << endl; 
+  int purchase;
+  int prefer;
+  purchase= 16500 * .15;
+  prefer= purchase * .58;
+  cout << "Out of 16500 customers the amount that at least purchased 1 energy drink was: " << purchase << endl; 
+  cout << "Out of those customers the number that prefered citrust flavored energy drinks was: " << prefer << endl; 
 }
